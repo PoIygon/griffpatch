@@ -4,15 +4,15 @@ function createContent(data) {
   const content = `
     <h1>facts about ${data.username}!</h1>
     <p>
-    ${data.username} joined ${data.joined} 
+    ${data.username} joined <span class="red">${data.joined}</span> 
     <br><br>
-    ${data.username} lives in the ${data.country}
+    ${data.username} lives in the <span class="red">${data.country}</span>
     <br><br>
-    ${data.username} has a status of ${data.status}
+    ${data.username} has a status of <span class="red">${data.status}</span>
     <br><br>
-    ${data.username} has ${data.followers} followers
+    ${data.username} has <span class="red">${data.followers}</span> followers
     <br><br>
-    ${data.username} is following ${data.following} people
+    ${data.username} is following <span class="red">${data.following}</span> people
     <br><br>
     ${data.username}'s about me is <span class="red">${data.bio}</span>
     <br><br>
